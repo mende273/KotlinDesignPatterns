@@ -4,7 +4,7 @@ While Kotlin doesn't have direct pattern implementations, many design patterns c
 - [Singleton](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/creational/Singleton.kt): Easily achieved using object keyword.
 - [Builder](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/creational/Builder.kt): Constructed using nested classes or data classes with optional parameters.
 - [Factory](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/creational/Factory.kt): Implemented using functions or object expressions.
-- Prototype: Achieved through deep copying or using serialization/deserialization.
+- [Prototype](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/creational/Prototype.kt): Achieved through deep copying.
 
 ### Structural Patterns
 - Adapter: Implemented using interfaces and adapter classes.
