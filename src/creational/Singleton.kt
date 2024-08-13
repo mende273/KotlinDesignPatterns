@@ -1,6 +1,10 @@
 package creational
 
-// implementation
+/**
+ * Kotlin provides a concise and elegant way to implement the
+ * Singleton pattern using object declarations.
+ */
+
 object Logger {
     fun logMessage(message: String) {
         println(message)

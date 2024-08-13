@@ -1,6 +1,12 @@
 package creational
 
-// implementation factory pattern with sealed classes
+/**
+ * The Factory pattern is a creational design pattern that
+ * provides an interface for creating objects, but lets
+ * subclasses decide which class to instantiate.
+ */
+
+// factory pattern with sealed classes
 sealed class Pet(val sound: String) {
     class Cat(sound: String) : Pet(sound)
     class Dog(sound: String) : Pet(sound)
@@ -13,9 +19,9 @@ fun createPet(type: String, sound: String): Pet = when (type) {
 }
 
 //usage
-fun main(){
-    val cat = createPet("cat","meow")
-    val dog = createPet("dog","woof")
+fun main() {
+    val cat = createPet("cat", "meow")
+    val dog = createPet("dog", "woof")
 
     println(cat.sound)
     println(dog.sound)

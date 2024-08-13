@@ -1,5 +1,11 @@
 package creational
 
+/**
+ * The Prototype pattern is a creational design pattern that involves
+ * creating objects based on a template of an existing object
+ * through cloning.
+ */
+
 data class Person(val name: String, val age: Int)
 
 fun main() {

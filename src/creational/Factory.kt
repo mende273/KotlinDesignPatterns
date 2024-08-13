@@ -1,6 +1,11 @@
 package creational
 
-// implementation
+/**
+ * The Factory pattern is a creational design pattern that
+ * provides an interface for creating objects, but lets
+ * subclasses decide which class to instantiate.
+ */
+
 interface Document {
     fun getContent(): String
 }

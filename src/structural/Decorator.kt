@@ -5,7 +5,6 @@ dynamically without changing its structure. It's often used to add
 features like logging, caching, or validation.
  */
 
-// implementation
 interface Coffee {
     fun cost(): Double
     fun getDescription(): String

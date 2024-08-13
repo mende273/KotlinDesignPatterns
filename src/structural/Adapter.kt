@@ -1,6 +1,11 @@
 package structural
 
-// implementation
+/**
+ * The Adapter pattern allows incompatible interfaces to work together.
+ * It acts as a bridge between two classes with different interfaces,
+ * enabling them to collaborate.
+ */
+
 interface ModernSong {
     val id: Int
     val name: String
