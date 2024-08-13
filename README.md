@@ -7,14 +7,12 @@ While Kotlin doesn't have direct pattern implementations, many design patterns c
 - [Prototype](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/creational/Prototype.kt): Achieved through deep copying.
 
 ### Structural Patterns
-- Adapter: Implemented using interfaces and adapter classes.
-- Decorator: Achieved using higher-order functions or delegation.
-- Proxy: Implemented using interfaces and delegation.
-- Facade: Created using a class with simplified methods.
+- [Adapter](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/structural/Adapter.kt): Implemented using interfaces and adapter classes.
+- [Decorator](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/structural/Decorator.kt): Achieved using higher-order functions or delegation.
+- [Proxy](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/structural/Proxy.kt): Implemented using interfaces and delegation.
+- [Facade](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/structural/Facade.kt): Created using a class with simplified methods.
 
 ### Behavioral Patterns
-- Observer: Implemented using interfaces and event listeners.
-- Strategy: Achieved using interfaces and object instances.
-- Template Method: Implemented using abstract classes and overriding methods.
-- Iterator: Provided by standard library collections.
-- State: Implemented using sealed classes and when expressions.
+- [Observer](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/behavioral/Observer.kt): Implemented using interfaces and event listeners.
+- [Strategy](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/behavioral/Strategy.kt): Achieved using interfaces and object instances.
+- [Template Method](https://github.com/mende273/KotlinDesignPatterns/blob/main/src/behavioral/TemplateMethod.kt): Implemented using abstract classes and overriding methods.
